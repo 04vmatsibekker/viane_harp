@@ -7,6 +7,11 @@ const featuredDescription = document.querySelector('#featuredDescription');
 
 const harpVideos = [
   {
+    title: 'Canon in D (Arrangement)',
+    src: 'harp_videos/canonind.mp4',
+    description: 'A timeless Canon arranged for solo harp — warm, lyrical, and perfect for ceremonies.'
+  },
+  {
     title: 'Sunlit Ceremony Performance',
     src: 'harp_videos/performance1.mov',
     description: 'A graceful piece arranged for wedding ceremonies, captured with soft lighting and serene motion.'
