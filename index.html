@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viane Harp | Elegant Harp Music for Special Moments</title>
+    <meta
+      name="description"
+      content="Viane offers elegant harp music for weddings, celebrations, and intimate events in New Jersey and beyond."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home">Viane Matsibekker</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#videos">Videos</a>
+        <a href="#repertoire">Repertoire</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <p class="eyebrow">Elegant harp music for life's most special moments</p>
+          <h1>Having Harp Music for life's most special moments.</h1>
+          <p class="hero__text">
+            From intimate weddings to refined celebrations, let's create a warm and unforgettable atmosphere with the graceful sound of the harp.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#contact">Book a Consultation</a>
+            <a class="button button--secondary" href="#repertoire">Explore Repertoire</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section__heading">
+          <p class="eyebrow">About Viane</p>
+          <h2>Creating beautiful music for the moments that matter most.</h2>
+        </div>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Hi, I'm Viane, a harpist based in Central New Jersey with over 10 years of experience creating beautiful music for life's most meaningful moments. Music has been a central part of my life, and I've had the privilege of performing in a wide variety of settings—from elegant weddings and private celebrations to fashion shows, college orchestras, and even Carnegie Hall.
+            </p>
+            <p>
+              Whether you're planning a wedding, cocktail hour, corporate event, bridal shower, or another special occasion, I'd be honored to provide an elegant and memorable soundtrack tailored to your event. My goal is to create an atmosphere that is both beautiful and unforgettable.
+            </p>
+          </div>
+          <div class="about__image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?auto=format&fit=crop&w=900&q=80"
+              alt="Viane playing the harp in a graceful performance"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="videos">
+        <div class="section__heading">
+          <p class="eyebrow">Performances</p>
+          <h2>Live moments and signature selections.</h2>
+        </div>
+        <div class="video-layout">
+          <aside class="video-list" aria-label="Video selections">
+            <button class="video-list__item is-active" data-video="0" type="button">
+              Canon in D – Live Performance
+            </button>
+            <button class="video-list__item" data-video="1" type="button">
+              Wedding Prelude Highlights
+            </button>
+          </aside>
+          <div class="video-player">
+            <video id="performance-video" controls playsinline preload="metadata">
+              <source src="harp_videos/canonind.mp4" type="video/mp4" />
+            </video>
+            <div class="video-player__details">
+              <h3 id="video-title">Canon in D – Live Performance</h3>
+              <p id="video-description">
+                A graceful performance that highlights the harp's romantic tone for ceremonies and celebrations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section repertoire" id="repertoire">
+        <div class="section__heading">
+          <p class="eyebrow">Recommended Repertoire</p>
+          <h2>Music to inspire your event.</h2>
+        </div>
+        <div class="repertoire__grid">
+          <article class="repertoire__card">
+            <h3>Classical</h3>
+            <ul>
+              <li>Canon in D – Johann Pachelbel</li>
+              <li>Spring – Antonio Vivaldi</li>
+              <li>Ave Maria – Franz Schubert</li>
+              <li>Jesu, Joy of Man's Desiring – J.S. Bach</li>
+              <li>Clair de Lune – Claude Debussy</li>
+            </ul>
+          </article>
+          <article class="repertoire__card">
+            <h3>Modern Love Songs</h3>
+            <ul>
+              <li>A Thousand Years</li>
+              <li>Perfect</li>
+              <li>Can't Help Falling in Love</li>
+              <li>All of Me</li>
+              <li>Turning Page</li>
+            </ul>
+            <p class="repertoire__note">Looking for a different song? Custom requests are always welcome whenever possible.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact__card">
+          <img
+            src="me_pictures/contactimage.png"
+            alt="Viane smiling in a polished, professional setting"
+          />
+          <div class="contact__details">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Let's create a soundtrack for your celebration.</h2>
+            <div class="contact__actions">
+              <a class="button button--primary" href="https://www.instagram.com/viane_matsibekker/" target="_blank" rel="noreferrer">Instagram</a>
+              <a class="button button--primary" href="mailto:04vmatsibekker@gmail.com">Email Viane</a>
+              <a class="button button--primary" href="https://calendar.app.google/uTRow8EjJryHyRKU9" target="_blank" rel="noreferrer">Book a Consultation</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Viane Harp. Elegant music for unforgettable moments.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
