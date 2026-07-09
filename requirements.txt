@@ -6,7 +6,7 @@
         <div class="video-layout">
           <aside class="video-list" aria-label="Video selections">
             <button class="video-list__item is-active" data-video="0" type="button">
-              Canon in D – Live Performance
+              Canon in D – Recording
             </button>
             <button class="video-list__item" data-video="1" type="button">
               Wedding Prelude Highlights
@@ -17,7 +17,7 @@
               <source src="harp_videos/canonind.mp4" type="video/mp4" />
             </video>
             <div class="video-player__details">
-              <h3 id="video-title">Canon in D – Live Performance</h3>
+              <h3 id="video-title">Canon in D – Recording</h3>
               <p id="video-description">
                 A graceful performance that highlights the harp's romantic tone for ceremonies and celebrations.
               </p>
