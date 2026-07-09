@@ -3,7 +3,7 @@ const videoOptions = [
     title: "Canon in D – Live Performance",
     description:
       "One of the most recognizable pieces of classical music, Canon in D by Johann Pachelbel is celebrated for its elegant, flowing melody and timeless beauty.",
-    src: "harp_videos/canonind.mp4",
+    src: "harp_videos/CanoninD_harp.mov",
   },
   {
     title: "Maggot Brain - BSA",
