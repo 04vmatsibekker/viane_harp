@@ -78,7 +78,7 @@ a {
   place-items: center;
   padding: 4rem 1.25rem;
   background-image: linear-gradient(rgba(114, 72, 92, 0.4), rgba(114, 72, 92, 0.2)),
-    url("me_pictures/background_banner.png");
+    url("me_pictures/background_banner_2.png");
   background-size: cover;
   background-position: center;
   color: white;
@@ -333,6 +333,11 @@ a {
 }
 
 @media (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(114, 72, 92, 0.4), rgba(114, 72, 92, 0.2)),
+      url("me_pictures/background_banner.png");
+  }
+
   .about__content {
     grid-template-columns: 1.1fr 0.9fr;
     align-items: center;
